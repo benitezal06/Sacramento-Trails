@@ -1,0 +1,27 @@
+,Range,name,type,difficulty,stars,starVotes,location,length,ascent,descent,high,low,longitude,latitude,color
+0,0-100,Woodland Trail,Trail,Easy,5.0,114.0,"Yosemite Valley, California",8.1,99.0,0.0,4052.0,3964.0,-119.5875,39.2959,lightgreen
+1,100-200,Waterfall Trail,Trail,Easy,4.7,28.0,"Yosemite Valley, California",4.4,175.0,-3.0,7200.0,7067.0,-119.5744,39.2939,lightgreen
+2,200-300,Snell Barn Loop,Trail,Easy,4.2,6.0,"North Auburn, California",3.7,228.0,-199.0,1563.0,1407.0,-121.1687,38.9643,lightgreen
+3,300-400,Swinging Bridge,Trail,Easy,5.0,8.0,"Sheridan, California",4.8,392.0,0.0,4243.0,3974.0,-119.6561,38.9738,lightgreen
+4,400-500,Harden Lake,Hike,Easy,3.0,1.0,"Yosemite Valley, California",5.9,499.0,-499.0,7862.0,7449.0,-119.6489,37.8703,lightgreen
+5,0-500,Zim Zim Overlook,Trail,Easy/Intermediate,5.0,70.0,"Yosemite Valley, California",13.1,496.0,0.0,8720.0,8676.0,-119.5603,39.3234,darkgreen
+6,500-1000,Zim Zim Falls,Trail,Easy/Intermediate,5.0,69.0,"Yosemite Valley, California",18.7,996.0,0.0,8783.0,8517.0,-119.7875,39.8058,darkgreen
+7,1000-1500,Sierra Vista Preserve,Trail,Easy/Intermediate,5.0,31.0,"Tahoma, California",12.3,1449.0,-13.0,6624.0,6240.0,-119.8454,39.0139,darkgreen
+8,1500-2000,North Sonoma Trailhead,Hike,Easy/Intermediate,3.8,6.0,"Eldridge, California",9.7,1747.0,-1748.0,2363.0,1066.0,-122.6044,38.3635,darkgreen
+9,2500-3000,Leavitt Meadows,Hike,Easy/Intermediate,5.0,1.0,"Bridgeport, California",22.0,2547.0,-2547.0,8620.0,7142.0,-119.5508,38.3338,darkgreen
+10,0-1000,Zim Zim Trail,Trail,Intermediate,5.0,46.0,"Yosemite Valley, California",9.4,991.0,0.0,10776.0,10106.0,-119.2721,39.4475,lightblue
+11,1000-2000,Wunderlich,Trail,Intermediate,5.0,48.0,"Yosemite Valley, California",25.4,1982.0,0.0,10444.0,8918.0,-119.3346,39.6144,lightblue
+12,2000-3000,Rancho Ridge,Hike,Intermediate,4.8,7.0,"Yosemite Valley, California",19.8,2547.0,-2003.0,9376.0,7897.0,-119.4705,38.9458,lightblue
+13,3000-4000,Western States,Trail,Intermediate,4.7,3.0,"Jackson, California",27.6,3388.0,-3526.0,1650.0,595.0,-120.7497,38.8879,lightblue
+14,4000-5000,State Park Trifecta,Hike,Intermediate,5.0,1.0,"Saratoga, California",28.0,4083.0,-4122.0,2639.0,415.0,-122.1291,37.2555,lightblue
+15,5000-6000,Bay Area Ridge,Trail,Intermediate,3.0,1.0,"Calistoga, California",15.7,5552.0,-1641.0,4309.0,398.0,-122.5772,38.5892,lightblue
+16,0-1000,Upper Ritchey,Trail,Intermediate/Difficult,5.0,22.0,"Yosemite Valley, California",6.9,874.0,0.0,9761.0,9521.0,-119.3705,39.4754,darkblue
+17,1000-2000,Wrights to Grouse Lake,Trail,Intermediate/Difficult,5.0,251.0,"Yosemite Valley, California",14.2,1999.0,0.0,9209.0,7498.0,-119.3154,39.7622,darkblue
+18,2000-3000,Tahoe Rim,Hike,Intermediate/Difficult,5.0,49.0,"Yosemite Valley, California",22.8,2981.0,-2056.0,10725.0,8921.0,-119.3008,39.3459,darkblue
+19,3000-4000,Yosemite Valley Traverse,Hike,Intermediate/Difficult,5.0,45.0,"Yosemite Valley, California",19.6,3990.0,-3325.0,7704.0,4035.0,-119.6018,37.9204,darkblue
+20,4000-5000,North Dome Out and Back,Hike,Intermediate/Difficult,4.6,10.0,"Yosemite Valley, California",15.5,4760.0,-4404.0,7600.0,4030.0,-119.6022,37.9221,darkblue
+21,5000-6000,Hetch Hetchy Loop,Hike,Intermediate/Difficult,4.7,11.0,"Yosemite Valley, California",27.7,5499.0,-5500.0,7615.0,3777.0,-119.7883,37.9459,darkblue
+22,0-2000,Rogue Valley,Trail,Difficult,5.0,3.0,"Yosemite Valley, California",13.1,1552.0,-6.0,9369.0,8900.0,-119.3529,39.0086,darkslategrey
+23,2000-4000,Rubicon Peak,Hike,Difficult,5.0,51.0,"Tahoma, California",16.9,3915.0,-1528.0,10338.0,8201.0,-120.0094,39.0103,darkslategrey
+24,4000-6000,Happy Isles to Clouds,Hike,Difficult,5.0,187.0,"Yosemite Valley, California",29.0,5782.0,-4142.0,9729.0,7769.0,-119.5581,38.5446,darkslategrey
+25,10000-12000,Yosemite Backcountry,Hike,Difficult,5.0,3.0,"Yosemite Valley, California",60.6,10264.0,-10264.0,10100.0,4368.0,-119.3344,37.8776,darkslategrey

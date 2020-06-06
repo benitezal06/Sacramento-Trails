@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d46d6b5bfd5348d48103bca825f2c6c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d46d6b5bfd5348d48103bca825f2c6c9" ></div>
+        
+</body>
+<script>    
+    
+            var map_d46d6b5bfd5348d48103bca825f2c6c9 = L.map(
+                "map_d46d6b5bfd5348d48103bca825f2c6c9",
+                {
+                    center: [38.1341, -121.2722],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8.2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0156345cf7f54e7abb297d9dc7312921 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var marker_d5c61d14b2f94dd29c0dbde31eb70e91 = L.marker(
+                [37.7464, -119.5962],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_ceb407d499644cc5ad4fec9a7afe8a37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5c61d14b2f94dd29c0dbde31eb70e91.setIcon(icon_ceb407d499644cc5ad4fec9a7afe8a37);
+        
+    
+        var popup_ccf9247fe38f4cb7ba29dd3505421378 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31ca164757e4445085e04e853b807dcd = $(`<div id="html_31ca164757e4445085e04e853b807dcd" style="width: 100.0%; height: 100.0%;">Lower Yosemite Fall Trail</div>`)[0];
+            popup_ccf9247fe38f4cb7ba29dd3505421378.setContent(html_31ca164757e4445085e04e853b807dcd);
+        
+
+        marker_d5c61d14b2f94dd29c0dbde31eb70e91.bindPopup(popup_ccf9247fe38f4cb7ba29dd3505421378)
+        ;
+
+        
+    
+    
+            marker_d5c61d14b2f94dd29c0dbde31eb70e91.bindTooltip(
+                `<div>
+                     Trail Length Category: Short
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60d6195689fe4c50a5c3f487e3045193 = L.marker(
+                [37.7168, -119.6509],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_8f6d382e497740eabb36d86b6cc5ffb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60d6195689fe4c50a5c3f487e3045193.setIcon(icon_8f6d382e497740eabb36d86b6cc5ffb8);
+        
+    
+        var popup_6fb4f525153d4a9c8b504e7eea9ae402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9232004e2b5428799b3f4588940197f = $(`<div id="html_e9232004e2b5428799b3f4588940197f" style="width: 100.0%; height: 100.0%;">Bridalveil Falls Trail</div>`)[0];
+            popup_6fb4f525153d4a9c8b504e7eea9ae402.setContent(html_e9232004e2b5428799b3f4588940197f);
+        
+
+        marker_60d6195689fe4c50a5c3f487e3045193.bindPopup(popup_6fb4f525153d4a9c8b504e7eea9ae402)
+        ;
+
+        
+    
+    
+            marker_60d6195689fe4c50a5c3f487e3045193.bindTooltip(
+                `<div>
+                     Trail Length Category: Short
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7d468db0f7345b39358e2a64fd59f15 = L.marker(
+                [37.7276, -119.5744],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_f9bdb7ebdf424816b84e829f3ac96e35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e7d468db0f7345b39358e2a64fd59f15.setIcon(icon_f9bdb7ebdf424816b84e829f3ac96e35);
+        
+    
+        var popup_55ebb0a15b98427dbb39aa46a94fb3f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5cd3c09121547aa9f6f6c06c5be151d = $(`<div id="html_b5cd3c09121547aa9f6f6c06c5be151d" style="width: 100.0%; height: 100.0%;">Glacier Point</div>`)[0];
+            popup_55ebb0a15b98427dbb39aa46a94fb3f4.setContent(html_b5cd3c09121547aa9f6f6c06c5be151d);
+        
+
+        marker_e7d468db0f7345b39358e2a64fd59f15.bindPopup(popup_55ebb0a15b98427dbb39aa46a94fb3f4)
+        ;
+
+        
+    
+    
+            marker_e7d468db0f7345b39358e2a64fd59f15.bindTooltip(
+                `<div>
+                     Trail Length Category: Short
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fda761347add4efdbe4913db5fe92e71 = L.marker(
+                [37.7484, -119.5875],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_8f53020634044e2b8e395e15181d8d1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fda761347add4efdbe4913db5fe92e71.setIcon(icon_8f53020634044e2b8e395e15181d8d1c);
+        
+    
+        var popup_51abb360b4c74a2c8ea966fcacb52488 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b18c0e3ecbd14e4fa8c885b01a760067 = $(`<div id="html_b18c0e3ecbd14e4fa8c885b01a760067" style="width: 100.0%; height: 100.0%;">Cook's Meadow Loop</div>`)[0];
+            popup_51abb360b4c74a2c8ea966fcacb52488.setContent(html_b18c0e3ecbd14e4fa8c885b01a760067);
+        
+
+        marker_fda761347add4efdbe4913db5fe92e71.bindPopup(popup_51abb360b4c74a2c8ea966fcacb52488)
+        ;
+
+        
+    
+    
+            marker_fda761347add4efdbe4913db5fe92e71.bindTooltip(
+                `<div>
+                     Trail Length Category: Short
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6a50ef63d4a452bbed896ec0c7ca78c = L.marker(
+                [37.084, -121.7953],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_6cd63a7db61e417d91626eb05f4b014e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6a50ef63d4a452bbed896ec0c7ca78c.setIcon(icon_6cd63a7db61e417d91626eb05f4b014e);
+        
+    
+        var popup_4d36151a5b834fdca5b25f764f7f511d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_680ab7f2f6454220a4e1ff6b80d58377 = $(`<div id="html_680ab7f2f6454220a4e1ff6b80d58377" style="width: 100.0%; height: 100.0%;">Waterfall Loop Nature Trail</div>`)[0];
+            popup_4d36151a5b834fdca5b25f764f7f511d.setContent(html_680ab7f2f6454220a4e1ff6b80d58377);
+        
+
+        marker_a6a50ef63d4a452bbed896ec0c7ca78c.bindPopup(popup_4d36151a5b834fdca5b25f764f7f511d)
+        ;
+
+        
+    
+    
+            marker_a6a50ef63d4a452bbed896ec0c7ca78c.bindTooltip(
+                `<div>
+                     Trail Length Category: Short
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81a7168cb36b461dad8d43cde53e9067 = L.marker(
+                [37.7129, -119.5867],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_bcc38dbee73c41a9b1b1114364b0310b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_81a7168cb36b461dad8d43cde53e9067.setIcon(icon_bcc38dbee73c41a9b1b1114364b0310b);
+        
+    
+        var popup_543d8ba0fe81490c91e0b3e965c5396b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89dab04bf67046df97328eda5e303071 = $(`<div id="html_89dab04bf67046df97328eda5e303071" style="width: 100.0%; height: 100.0%;">Sentinel Dome</div>`)[0];
+            popup_543d8ba0fe81490c91e0b3e965c5396b.setContent(html_89dab04bf67046df97328eda5e303071);
+        
+
+        marker_81a7168cb36b461dad8d43cde53e9067.bindPopup(popup_543d8ba0fe81490c91e0b3e965c5396b)
+        ;
+
+        
+    
+    
+            marker_81a7168cb36b461dad8d43cde53e9067.bindTooltip(
+                `<div>
+                     Trail Length Category: Short/Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db59faa91e9b4a008d511f5bee54c268 = L.marker(
+                [37.7807, -122.5117],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_5b5ab98b61c84d91b65655c6d49f1317 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db59faa91e9b4a008d511f5bee54c268.setIcon(icon_5b5ab98b61c84d91b65655c6d49f1317);
+        
+    
+        var popup_05433a8558974624b1131aae83cee972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35c706217bba4dedb893e36420619d37 = $(`<div id="html_35c706217bba4dedb893e36420619d37" style="width: 100.0%; height: 100.0%;">Coastal Trail: Lands End</div>`)[0];
+            popup_05433a8558974624b1131aae83cee972.setContent(html_35c706217bba4dedb893e36420619d37);
+        
+
+        marker_db59faa91e9b4a008d511f5bee54c268.bindPopup(popup_05433a8558974624b1131aae83cee972)
+        ;
+
+        
+    
+    
+            marker_db59faa91e9b4a008d511f5bee54c268.bindTooltip(
+                `<div>
+                     Trail Length Category: Short/Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9855aac69fe94c7189d7b4de9003bf6a = L.marker(
+                [37.7126, -119.5864],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_fe3a1d6c7ba74b98b69f723a9a05c79b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9855aac69fe94c7189d7b4de9003bf6a.setIcon(icon_fe3a1d6c7ba74b98b69f723a9a05c79b);
+        
+    
+        var popup_3d023a37d3cf43739a0f29b4e343b2ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c7c6ae14fd54d12b4115bb31c4bb780 = $(`<div id="html_9c7c6ae14fd54d12b4115bb31c4bb780" style="width: 100.0%; height: 100.0%;">Taft Point</div>`)[0];
+            popup_3d023a37d3cf43739a0f29b4e343b2ce.setContent(html_9c7c6ae14fd54d12b4115bb31c4bb780);
+        
+
+        marker_9855aac69fe94c7189d7b4de9003bf6a.bindPopup(popup_3d023a37d3cf43739a0f29b4e343b2ce)
+        ;
+
+        
+    
+    
+            marker_9855aac69fe94c7189d7b4de9003bf6a.bindTooltip(
+                `<div>
+                     Trail Length Category: Short/Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a877dc7383f5485481a2933b737c5f5a = L.marker(
+                [37.8913, -122.5694],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_270c3346dbb84c60a095f488230c19b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a877dc7383f5485481a2933b737c5f5a.setIcon(icon_270c3346dbb84c60a095f488230c19b5);
+        
+    
+        var popup_3478dfe88b0f4e6ead8840bd258e8f10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3d9448225f84dd7a59e13fd508080c5 = $(`<div id="html_d3d9448225f84dd7a59e13fd508080c5" style="width: 100.0%; height: 100.0%;">Hillside Loop</div>`)[0];
+            popup_3478dfe88b0f4e6ead8840bd258e8f10.setContent(html_d3d9448225f84dd7a59e13fd508080c5);
+        
+
+        marker_a877dc7383f5485481a2933b737c5f5a.bindPopup(popup_3478dfe88b0f4e6ead8840bd258e8f10)
+        ;
+
+        
+    
+    
+            marker_a877dc7383f5485481a2933b737c5f5a.bindTooltip(
+                `<div>
+                     Trail Length Category: Short/Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c2a350213234303acf8dbcad971f843 = L.marker(
+                [38.8115, -120.1237],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_91fddad8776245719eae9d8d91ec0070 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c2a350213234303acf8dbcad971f843.setIcon(icon_91fddad8776245719eae9d8d91ec0070);
+        
+    
+        var popup_16cee36a15f24111b72c633506dc34ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a05d31bd4cd46c69676a6890fc91d8f = $(`<div id="html_7a05d31bd4cd46c69676a6890fc91d8f" style="width: 100.0%; height: 100.0%;">Horsetail Falls</div>`)[0];
+            popup_16cee36a15f24111b72c633506dc34ea.setContent(html_7a05d31bd4cd46c69676a6890fc91d8f);
+        
+
+        marker_6c2a350213234303acf8dbcad971f843.bindPopup(popup_16cee36a15f24111b72c633506dc34ea)
+        ;
+
+        
+    
+    
+            marker_6c2a350213234303acf8dbcad971f843.bindTooltip(
+                `<div>
+                     Trail Length Category: Short/Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7a5777591204cc6a32f94bb88d7e572 = L.marker(
+                [37.7393, -119.5603],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_872743d790e84e6a814a03e6c68872c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f7a5777591204cc6a32f94bb88d7e572.setIcon(icon_872743d790e84e6a814a03e6c68872c5);
+        
+    
+        var popup_123d5e98998d48fe9eb157416181e20c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddbabf79b62b47c6b3561913b8febcad = $(`<div id="html_ddbabf79b62b47c6b3561913b8febcad" style="width: 100.0%; height: 100.0%;">Mirror Lake Loop</div>`)[0];
+            popup_123d5e98998d48fe9eb157416181e20c.setContent(html_ddbabf79b62b47c6b3561913b8febcad);
+        
+
+        marker_f7a5777591204cc6a32f94bb88d7e572.bindPopup(popup_123d5e98998d48fe9eb157416181e20c)
+        ;
+
+        
+    
+    
+            marker_f7a5777591204cc6a32f94bb88d7e572.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa1359add9c54540a3089c7d0ee8a2d7 = L.marker(
+                [37.2307, -122.0958],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_021b64b860b140c0900f3518cb58708c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_aa1359add9c54540a3089c7d0ee8a2d7.setIcon(icon_021b64b860b140c0900f3518cb58708c);
+        
+    
+        var popup_b2b94a426584496989b748fbdc31f883 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2af7d60f2ed6443e8dc3836158045661 = $(`<div id="html_2af7d60f2ed6443e8dc3836158045661" style="width: 100.0%; height: 100.0%;">Castle Rock Loop</div>`)[0];
+            popup_b2b94a426584496989b748fbdc31f883.setContent(html_2af7d60f2ed6443e8dc3836158045661);
+        
+
+        marker_aa1359add9c54540a3089c7d0ee8a2d7.bindPopup(popup_b2b94a426584496989b748fbdc31f883)
+        ;
+
+        
+    
+    
+            marker_aa1359add9c54540a3089c7d0ee8a2d7.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b56ddb95790440468159f0acbfb5b31e = L.marker(
+                [38.5119, -122.09700000000001],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_6a8cd71283a04d8192039c020c33eb17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b56ddb95790440468159f0acbfb5b31e.setIcon(icon_6a8cd71283a04d8192039c020c33eb17);
+        
+    
+        var popup_986155fb95974e2481658edf222b0d59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f3d563873ad4bf4bd4e0ba7e9d6cd8f = $(`<div id="html_3f3d563873ad4bf4bd4e0ba7e9d6cd8f" style="width: 100.0%; height: 100.0%;">Stebbins Cold Canyon Loop</div>`)[0];
+            popup_986155fb95974e2481658edf222b0d59.setContent(html_3f3d563873ad4bf4bd4e0ba7e9d6cd8f);
+        
+
+        marker_b56ddb95790440468159f0acbfb5b31e.bindPopup(popup_986155fb95974e2481658edf222b0d59)
+        ;
+
+        
+    
+    
+            marker_b56ddb95790440468159f0acbfb5b31e.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acf48ee437b543c1bdfd79180e74def7 = L.marker(
+                [37.8913, -122.5694],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_14dd00122f4a479285e068df3a7826fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_acf48ee437b543c1bdfd79180e74def7.setIcon(icon_14dd00122f4a479285e068df3a7826fa);
+        
+    
+        var popup_3ca53af9a71140eb8e9254ba5d895b73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be64bbe5c79f4934bb3f22c836004abb = $(`<div id="html_be64bbe5c79f4934bb3f22c836004abb" style="width: 100.0%; height: 100.0%;">Panoramic Loop</div>`)[0];
+            popup_3ca53af9a71140eb8e9254ba5d895b73.setContent(html_be64bbe5c79f4934bb3f22c836004abb);
+        
+
+        marker_acf48ee437b543c1bdfd79180e74def7.bindPopup(popup_3ca53af9a71140eb8e9254ba5d895b73)
+        ;
+
+        
+    
+    
+            marker_acf48ee437b543c1bdfd79180e74def7.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b7a6c10480c42f497bd582e46bfc3d1 = L.marker(
+                [37.7127, -119.5864],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_2bc886d8cc0c4fcb8b5ca5cc20d8175e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1b7a6c10480c42f497bd582e46bfc3d1.setIcon(icon_2bc886d8cc0c4fcb8b5ca5cc20d8175e);
+        
+    
+        var popup_2f19d2c057b14cf587167e0935224ce1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82ce3022ed464399af18f058d1a03350 = $(`<div id="html_82ce3022ed464399af18f058d1a03350" style="width: 100.0%; height: 100.0%;">Taft Point to Sentinel Dome Loop</div>`)[0];
+            popup_2f19d2c057b14cf587167e0935224ce1.setContent(html_82ce3022ed464399af18f058d1a03350);
+        
+
+        marker_1b7a6c10480c42f497bd582e46bfc3d1.bindPopup(popup_2f19d2c057b14cf587167e0935224ce1)
+        ;
+
+        
+    
+    
+            marker_1b7a6c10480c42f497bd582e46bfc3d1.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2db7d2360b6d4a78b4aa8dae199f6577 = L.marker(
+                [37.7326, -119.5583],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_5d2b50324f134c1ea669e24b4c312d42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2db7d2360b6d4a78b4aa8dae199f6577.setIcon(icon_5d2b50324f134c1ea669e24b4c312d42);
+        
+    
+        var popup_31bba3e2e129472fbba75fb9cc40069d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61c6bb5993ff4b6182321e21ca528829 = $(`<div id="html_61c6bb5993ff4b6182321e21ca528829" style="width: 100.0%; height: 100.0%;">Vernal and Nevada Falls Loop</div>`)[0];
+            popup_31bba3e2e129472fbba75fb9cc40069d.setContent(html_61c6bb5993ff4b6182321e21ca528829);
+        
+
+        marker_2db7d2360b6d4a78b4aa8dae199f6577.bindPopup(popup_31bba3e2e129472fbba75fb9cc40069d)
+        ;
+
+        
+    
+    
+            marker_2db7d2360b6d4a78b4aa8dae199f6577.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium/Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de54dc7ac10043ef86dd0a29adb33979 = L.marker(
+                [37.8966, -122.6359],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_85c46f837bae4767b2ebc3d08ee3afef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_de54dc7ac10043ef86dd0a29adb33979.setIcon(icon_85c46f837bae4767b2ebc3d08ee3afef);
+        
+    
+        var popup_ad9d843fe604401a8142adf8badd993b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e31cdf20cfa40e6ab9390ba9495bdea = $(`<div id="html_6e31cdf20cfa40e6ab9390ba9495bdea" style="width: 100.0%; height: 100.0%;">Steep Ravine - Matt Davis Loop</div>`)[0];
+            popup_ad9d843fe604401a8142adf8badd993b.setContent(html_6e31cdf20cfa40e6ab9390ba9495bdea);
+        
+
+        marker_de54dc7ac10043ef86dd0a29adb33979.bindPopup(popup_ad9d843fe604401a8142adf8badd993b)
+        ;
+
+        
+    
+    
+            marker_de54dc7ac10043ef86dd0a29adb33979.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium/Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78f297bcbdf44450b82bb36e18113649 = L.marker(
+                [37.7424, -119.6022],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_ee4d85fce30349779cda2d60cf432801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_78f297bcbdf44450b82bb36e18113649.setIcon(icon_ee4d85fce30349779cda2d60cf432801);
+        
+    
+        var popup_5843e1ab6f3641e6b9daf9c36157aac3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61b04cb589b543cf847c0f95cf3fb3ef = $(`<div id="html_61b04cb589b543cf847c0f95cf3fb3ef" style="width: 100.0%; height: 100.0%;">Upper Yosemite Falls and Yosemite Point Hike</div>`)[0];
+            popup_5843e1ab6f3641e6b9daf9c36157aac3.setContent(html_61b04cb589b543cf847c0f95cf3fb3ef);
+        
+
+        marker_78f297bcbdf44450b82bb36e18113649.bindPopup(popup_5843e1ab6f3641e6b9daf9c36157aac3)
+        ;
+
+        
+    
+    
+            marker_78f297bcbdf44450b82bb36e18113649.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium/Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ff5cfd13d95445c90bd9859c532131f = L.marker(
+                [37.9339, -122.7462],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_45cde1eb5bce4518b545a8dae9ab8974 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ff5cfd13d95445c90bd9859c532131f.setIcon(icon_45cde1eb5bce4518b545a8dae9ab8974);
+        
+    
+        var popup_373b271b84774aeda2504a57ce05845a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6b9f797306e4adc90678b3727fd303e = $(`<div id="html_c6b9f797306e4adc90678b3727fd303e" style="width: 100.0%; height: 100.0%;">Palomarin to Alamere Falls Out and Back</div>`)[0];
+            popup_373b271b84774aeda2504a57ce05845a.setContent(html_c6b9f797306e4adc90678b3727fd303e);
+        
+
+        marker_8ff5cfd13d95445c90bd9859c532131f.bindPopup(popup_373b271b84774aeda2504a57ce05845a)
+        ;
+
+        
+    
+    
+            marker_8ff5cfd13d95445c90bd9859c532131f.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium/Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2223ea13fb22468cb235f2eb7e781926 = L.marker(
+                [37.8036, -122.1769],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_1abc44fb9c0243f5b75c5c4307a4f2b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2223ea13fb22468cb235f2eb7e781926.setIcon(icon_1abc44fb9c0243f5b75c5c4307a4f2b4);
+        
+    
+        var popup_6ea3aed559f0436392dae2b1c560d5b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae7b78713fc241138d8ddf399ed79437 = $(`<div id="html_ae7b78713fc241138d8ddf399ed79437" style="width: 100.0%; height: 100.0%;">Redwood Regional Loop</div>`)[0];
+            popup_6ea3aed559f0436392dae2b1c560d5b4.setContent(html_ae7b78713fc241138d8ddf399ed79437);
+        
+
+        marker_2223ea13fb22468cb235f2eb7e781926.bindPopup(popup_6ea3aed559f0436392dae2b1c560d5b4)
+        ;
+
+        
+    
+    
+            marker_2223ea13fb22468cb235f2eb7e781926.bindTooltip(
+                `<div>
+                     Trail Length Category: Medium/Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c25d39514f0243d39d73de8f1d40f65d = L.marker(
+                [37.7325, -119.5583],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_32a46e9398214ed79a71fa9fd02f9c43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c25d39514f0243d39d73de8f1d40f65d.setIcon(icon_32a46e9398214ed79a71fa9fd02f9c43);
+        
+    
+        var popup_d46b3feb8d4e4c039d8911bf7b0a6baf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee88537ff64d4194add3a922cf629347 = $(`<div id="html_ee88537ff64d4194add3a922cf629347" style="width: 100.0%; height: 100.0%;">Half Dome</div>`)[0];
+            popup_d46b3feb8d4e4c039d8911bf7b0a6baf.setContent(html_ee88537ff64d4194add3a922cf629347);
+        
+
+        marker_c25d39514f0243d39d73de8f1d40f65d.bindPopup(popup_d46b3feb8d4e4c039d8911bf7b0a6baf)
+        ;
+
+        
+    
+    
+            marker_c25d39514f0243d39d73de8f1d40f65d.bindTooltip(
+                `<div>
+                     Trail Length Category: Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea870269fdc14026ac67ceeff067c366 = L.marker(
+                [38.1891, -122.9543],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_585acd4e6b674e1f9e5d562452b9ac90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ea870269fdc14026ac67ceeff067c366.setIcon(icon_585acd4e6b674e1f9e5d562452b9ac90);
+        
+    
+        var popup_89c0715d9ba34e1ab871e5e531508b41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b49b145ea13e4856a73e7d0057fc1576 = $(`<div id="html_b49b145ea13e4856a73e7d0057fc1576" style="width: 100.0%; height: 100.0%;">Tomales Point Trail</div>`)[0];
+            popup_89c0715d9ba34e1ab871e5e531508b41.setContent(html_b49b145ea13e4856a73e7d0057fc1576);
+        
+
+        marker_ea870269fdc14026ac67ceeff067c366.bindPopup(popup_89c0715d9ba34e1ab871e5e531508b41)
+        ;
+
+        
+    
+    
+            marker_ea870269fdc14026ac67ceeff067c366.bindTooltip(
+                `<div>
+                     Trail Length Category: Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad902ee5ecbc49de9aac25b3f14d037f = L.marker(
+                [38.9214, -120.0682],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_56f42c4632ef4fd1bc16e1966af5b62c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ad902ee5ecbc49de9aac25b3f14d037f.setIcon(icon_56f42c4632ef4fd1bc16e1966af5b62c);
+        
+    
+        var popup_d0e7dc56c488415ebc7899fa316dc3ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d003509caa464c749e891d579bf2d3cb = $(`<div id="html_d003509caa464c749e891d579bf2d3cb" style="width: 100.0%; height: 100.0%;">Mount Tallac</div>`)[0];
+            popup_d0e7dc56c488415ebc7899fa316dc3ed.setContent(html_d003509caa464c749e891d579bf2d3cb);
+        
+
+        marker_ad902ee5ecbc49de9aac25b3f14d037f.bindPopup(popup_d0e7dc56c488415ebc7899fa316dc3ed)
+        ;
+
+        
+    
+    
+            marker_ad902ee5ecbc49de9aac25b3f14d037f.bindTooltip(
+                `<div>
+                     Trail Length Category: Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edde2d871a6944e5bf60ce9507f63728 = L.marker(
+                [37.8257, -119.47],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_6bd39166ef2c4b638913c154d4e0f4e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_edde2d871a6944e5bf60ce9507f63728.setIcon(icon_6bd39166ef2c4b638913c154d4e0f4e2);
+        
+    
+        var popup_8649307b836e496181d87ca57f2195a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce9365a41ea84e53afa42e3847fdf3de = $(`<div id="html_ce9365a41ea84e53afa42e3847fdf3de" style="width: 100.0%; height: 100.0%;">Clouds Rest Viewpoint Trail</div>`)[0];
+            popup_8649307b836e496181d87ca57f2195a1.setContent(html_ce9365a41ea84e53afa42e3847fdf3de);
+        
+
+        marker_edde2d871a6944e5bf60ce9507f63728.bindPopup(popup_8649307b836e496181d87ca57f2195a1)
+        ;
+
+        
+    
+    
+            marker_edde2d871a6944e5bf60ce9507f63728.bindTooltip(
+                `<div>
+                     Trail Length Category: Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee50fc71c81a44939bab1a3796a330cb = L.marker(
+                [37.1721, -122.2224],
+                {}
+            ).addTo(map_d46d6b5bfd5348d48103bca825f2c6c9);
+        
+    
+            var icon_512ed0285a8f460f83220e626eba311a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ee50fc71c81a44939bab1a3796a330cb.setIcon(icon_512ed0285a8f460f83220e626eba311a);
+        
+    
+        var popup_b43aed1b099c4110b01d11a8d1189fd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_136cc0f655ea4b3ba270a9e65a5379d4 = $(`<div id="html_136cc0f655ea4b3ba270a9e65a5379d4" style="width: 100.0%; height: 100.0%;">Berry Creek Falls Loop</div>`)[0];
+            popup_b43aed1b099c4110b01d11a8d1189fd9.setContent(html_136cc0f655ea4b3ba270a9e65a5379d4);
+        
+
+        marker_ee50fc71c81a44939bab1a3796a330cb.bindPopup(popup_b43aed1b099c4110b01d11a8d1189fd9)
+        ;
+
+        
+    
+    
+            marker_ee50fc71c81a44939bab1a3796a330cb.bindTooltip(
+                `<div>
+                     Trail Length Category: Long
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

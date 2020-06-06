@@ -1,0 +1,26 @@
+,name,stars,starVotes,popular_vote,location,length,longitude,latitude,length_bin,length_category,marker_color
+0,Lower Yosemite Fall Trail,4.4,114,501.6,"Yosemite Valley, California",1.0,-119.5962,37.7464,"(0.099, 1.4]",Short,blue
+1,Bridalveil Falls Trail,4.3,60,258.0,"Yosemite Valley, California",0.4,-119.6509,37.7168,"(0.099, 1.4]",Short,blue
+2,Glacier Point,4.7,28,131.6,"Yosemite Valley, California",0.5,-119.5744,37.7276,"(0.099, 1.4]",Short,blue
+3,Cook's Meadow Loop,4.3,9,38.7,"Yosemite Valley, California",1.2,-119.5875,37.7484,"(0.099, 1.4]",Short,blue
+4,Waterfall Loop Nature Trail,4.6,5,23.0,"Day Valley, California",1.0,-121.7953,37.084,"(0.099, 1.4]",Short,blue
+5,Sentinel Dome,4.7,55,258.5,"Yosemite Valley, California",2.1,-119.5867,37.7129,"(1.4, 3.3]",Short/Medium,green
+6,Coastal Trail: Lands End,4.5,56,252.0,"San Francisco, California",2.9,-122.5117,37.7807,"(1.4, 3.3]",Short/Medium,green
+7,Taft Point,4.5,37,166.5,"Yosemite Valley, California",2.3,-119.5864,37.7126,"(1.4, 3.3]",Short/Medium,green
+8,Hillside Loop,4.7,32,150.4,"Tamalpais Valley, California",2.5,-122.5694,37.8913,"(1.4, 3.3]",Short/Medium,green
+9,Horsetail Falls,4.5,22,99.0,"South Lake Tahoe, California",3.3,-120.1237,38.8115,"(1.4, 3.3]",Short/Medium,green
+10,Mirror Lake Loop,3.9,70,273.0,"Yosemite Valley, California",4.7,-119.5603,37.7393,"(3.3, 5.5]",Medium,orange
+11,Castle Rock Loop,4.6,38,174.79999999999995,"Monte Sereno, California",3.4,-122.0958,37.2307,"(3.3, 5.5]",Medium,orange
+12,Stebbins Cold Canyon Loop,4.3,29,124.7,"Winters, California",5.1,-122.09700000000001,38.5119,"(3.3, 5.5]",Medium,orange
+13,Panoramic Loop,4.4,23,101.2,"Tamalpais Valley, California",4.5,-122.5694,37.8913,"(3.3, 5.5]",Medium,orange
+14,Taft Point to Sentinel Dome Loop,4.9,17,83.30000000000003,"Yosemite Valley, California",5.5,-119.5864,37.7127,"(3.3, 5.5]",Medium,orange
+15,Vernal and Nevada Falls Loop,4.8,251,1204.8,"Yosemite Valley, California",6.2,-119.5583,37.7326,"(5.5, 8.7]",Medium/Long,red
+16,Steep Ravine - Matt Davis Loop,4.8,55,264.0,"Bolinas, California",7.1,-122.6359,37.8966,"(5.5, 8.7]",Medium/Long,red
+17,Upper Yosemite Falls and Yosemite Point Hike,4.8,46,220.8,"Yosemite Valley, California",8.0,-119.6022,37.7424,"(5.5, 8.7]",Medium/Long,red
+18,Palomarin to Alamere Falls Out and Back,4.7,46,216.2,"Bolinas, California",8.3,-122.7462,37.9339,"(5.5, 8.7]",Medium/Long,red
+19,Redwood Regional Loop,4.5,31,139.5,"Piedmont, California",7.3,-122.1769,37.8036,"(5.5, 8.7]",Medium/Long,red
+20,Half Dome,4.9,187,916.3,"Yosemite Valley, California",14.5,-119.5583,37.7325,"(8.7, 60.6]",Long,purple
+21,Tomales Point Trail,4.6,69,317.4,"Inverness, California",9.8,-122.9543,38.1891,"(8.7, 60.6]",Long,purple
+22,Mount Tallac,4.8,51,244.8,"South Lake Tahoe, California",9.9,-120.0682,38.9214,"(8.7, 60.6]",Long,purple
+23,Clouds Rest Viewpoint Trail,4.8,49,235.2,"Yosemite Valley, California",12.4,-119.47,37.8257,"(8.7, 60.6]",Long,purple
+24,Berry Creek Falls Loop,4.6,48,220.8,"Boulder Creek, California",9.7,-122.2224,37.1721,"(8.7, 60.6]",Long,purple
