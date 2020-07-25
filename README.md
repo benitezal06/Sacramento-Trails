@@ -1,4 +1,4 @@
-# Sacramento-Trails
+# Sacramento-Trails.
 ![1-Logo](Images/cover_page.png)
 
 ## Review the project outline
